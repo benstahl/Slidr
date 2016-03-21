@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6931D7681C05408300CA5109 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6931D7671C05408300CA5109 /* Slide.swift */; };
+		6931D76A1C0540D100CA5109 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6931D7691C0540D100CA5109 /* Slide.xib */; };
 		69D03E3E1BEA7F09002E8A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D03E3D1BEA7F09002E8A6F /* AppDelegate.swift */; };
-		69D03E401BEA7F09002E8A6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D03E3F1BEA7F09002E8A6F /* ViewController.swift */; };
+		69D03E401BEA7F09002E8A6F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D03E3F1BEA7F09002E8A6F /* MainViewController.swift */; };
 		69D03E421BEA7F09002E8A6F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D03E411BEA7F09002E8A6F /* Document.swift */; };
 		69D03E441BEA7F09002E8A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D03E431BEA7F09002E8A6F /* Assets.xcassets */; };
 		69D03E471BEA7F09002E8A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D03E451BEA7F09002E8A6F /* Main.storyboard */; };
@@ -35,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6931D7671C05408300CA5109 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		6931D7691C0540D100CA5109 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
 		69D03E3A1BEA7F09002E8A6F /* Slidr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slidr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D03E3D1BEA7F09002E8A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69D03E3F1BEA7F09002E8A6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69D03E3F1BEA7F09002E8A6F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		69D03E411BEA7F09002E8A6F /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		69D03E431BEA7F09002E8A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69D03E461BEA7F09002E8A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,11 +105,13 @@
 			children = (
 				69D03E6B1BEA7F72002E8A6F /* Globals.swift */,
 				69D03E3D1BEA7F09002E8A6F /* AppDelegate.swift */,
-				69D03E3F1BEA7F09002E8A6F /* ViewController.swift */,
+				69D03E3F1BEA7F09002E8A6F /* MainViewController.swift */,
 				69D03E411BEA7F09002E8A6F /* Document.swift */,
+				6931D7671C05408300CA5109 /* Slide.swift */,
 				69D03E431BEA7F09002E8A6F /* Assets.xcassets */,
-				69D03E451BEA7F09002E8A6F /* Main.storyboard */,
 				69D03E481BEA7F09002E8A6F /* Info.plist */,
+				69D03E451BEA7F09002E8A6F /* Main.storyboard */,
+				6931D7691C0540D100CA5109 /* Slide.xib */,
 			);
 			path = Slidr;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			files = (
 				69D03E441BEA7F09002E8A6F /* Assets.xcassets in Resources */,
 				69D03E471BEA7F09002E8A6F /* Main.storyboard in Resources */,
+				6931D76A1C0540D100CA5109 /* Slide.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				69D03E6C1BEA7F72002E8A6F /* Globals.swift in Sources */,
-				69D03E401BEA7F09002E8A6F /* ViewController.swift in Sources */,
+				69D03E401BEA7F09002E8A6F /* MainViewController.swift in Sources */,
 				69D03E3E1BEA7F09002E8A6F /* AppDelegate.swift in Sources */,
 				69D03E421BEA7F09002E8A6F /* Document.swift in Sources */,
+				6931D7681C05408300CA5109 /* Slide.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +508,7 @@
 				69D03E631BEA7F09002E8A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69D03E641BEA7F09002E8A6F /* Build configuration list for PBXNativeTarget "SlidrTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +517,7 @@
 				69D03E661BEA7F09002E8A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69D03E671BEA7F09002E8A6F /* Build configuration list for PBXNativeTarget "SlidrUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +526,7 @@
 				69D03E691BEA7F09002E8A6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
